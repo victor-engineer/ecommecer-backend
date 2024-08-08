@@ -13,6 +13,13 @@ public class Customer {
     private String email;
     private Integer number_phone;
 
+    public Customer(Long id, String name, String email, Integer number_phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.number_phone = number_phone;
+    }
+
     public Long getId() {
         return id;
     }
